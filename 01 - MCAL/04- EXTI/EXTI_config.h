@@ -41,7 +41,7 @@
 #define     FALLING_EDGE             1
 #define     ON_CHANGE                2
 
-#define     EXTI_MODE               RISING_EDGE
+#define     EXTI_SENSE_MODE               RISING_EDGE
 
 
 

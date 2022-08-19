@@ -25,9 +25,9 @@ typedef struct
     volatile u32 LCKR ;
 }GPIO_st;
 
-#define GPIOAP	((volatile GPIO_st*)0x40010800)
-#define	GPIOBP	((volatile GPIO_st*)0x40010C00)
-#define	GPIOCP	((volatile GPIO_st*)0x40011000)
+#define GPIOA	((volatile GPIO_st*)0x40010800)
+#define	GPIOB	((volatile GPIO_st*)0x40010C00)
+#define	GPIOC   ((volatile GPIO_st*)0x40011000)
 
 
 #endif 

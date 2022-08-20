@@ -5,7 +5,9 @@
 typedef struct
 {
     u16 priodicity          ;
-    void (*Fptr)(void)       ;
+    void (*Fptr)(void)      ;
+    u8 firstDelay           ;
+    u8 State                ;
 }Task;
 
 #endif

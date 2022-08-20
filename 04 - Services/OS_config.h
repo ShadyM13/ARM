@@ -3,8 +3,8 @@
 #define OS_CONFIG_H
 
 
-#define NUMBER_OF_TASKS     3
-
+#define 	NUMBER_OF_TASKS     3
+#define 	TASK_READY			1
 
 
 #endif
